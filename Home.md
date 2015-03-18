@@ -1,7 +1,6 @@
-#summary Example ComicBookInfo metadata
-#labels Featured
+# Example ComicBookInfo metadata
 
-{{{
+```json
 {"appID":"ComicBookLover/888",
  "lastModified":"2009-10-25 14:51:31 +0000",
  "ComicBookInfo/1.0":
@@ -16,19 +15,19 @@
     "volume" : 1,
     "numberOfVolumes" : 1,
     "rating" : 5,
-    "genre" : "Superhero"
+    "genre" : "Superhero",
     "language":"English",
     "country":"United States",
     "credits" : [
         {
           "person" : "Moore, Alan",
           "role" : "Writer",
-          "primary" : YES
+          "primary" : "YES"
         },
         {
           "person" : "Gibbons, Dave",
-          "role" : "Artist"
-          "primary" : YES
+          "role" : "Artist",
+          "primary" : "YES"
         },
         {
           "person" : "Gibbons, Dave",
@@ -53,14 +52,14 @@
         "Nite Owl",
       ],
     "comments" : "Tales of the Black Freighter...",
-    }
-"x-ComicBookLover":{
-        key : value
-        ...
-    }
-"x-LinuxComicReader":{
-        key : value
-        ...
-    }
+  },
+  "x-ComicBookLover":{
+    key : value
+    ...
+  },
+  "x-LinuxComicReader":{
+    key : value
+    ...
+  }
 }
-}}}
+```
